@@ -1,0 +1,1 @@
+javascript:function getParameterByName(name){ var match=new RegExp('[?&]'+name+'=([^&]*)').exec(window.location.search); return match && decodeURIComponent(match[1].replace(/\+/g, ' ')); } var uid=getParameterByName('id'); var pid=getParameterByName('story_fbid'); window.location.href='https://www.facebook.com/'+uid+'/posts/'+pid;
