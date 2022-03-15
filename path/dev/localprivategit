@@ -1,0 +1,2 @@
+git config --local user.name "rw00"
+git config --local user.email "raafatwahb@gmail.com"

@@ -1,0 +1,1 @@
+kubectl logs pod/$1 --follow

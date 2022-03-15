@@ -1,0 +1,17 @@
+git config --global alias.co checkout
+
+git config --global alias.squash2 'reset --soft HEAD^'
+
+git config --global alias.commitamend 'commit --amend --no-edit'
+
+git config --global alias.squashk '!f() { git rebase -i HEAD~"$1"; }; f'
+
+git config --global alias.cbranch 'branch --show-current'
+
+git config --global alias.unstage 'reset HEAD --'
+
+git config --global alias.pullbase 'pull --rebase origin main'
+
+git config --global alias.rpush '!f() { git push -u origin $(git branch --show-current) $@; }; f'
+
+git config --global alias.llog '!f() { git log -"${1:-1}"; }; f'

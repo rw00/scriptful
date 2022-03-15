@@ -1,0 +1,3 @@
+#!/bin/bash
+# TODO FIX detach process automatically
+"/Applications/IntelliJ IDEA.app/Contents/MacOS/idea" "$@" &
