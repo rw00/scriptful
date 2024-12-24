@@ -1,5 +1,7 @@
 git config --global alias.co checkout
 
+git config --global alias.recommit '!f() { git commit -am "$(git log -1 --pretty=%s)"; }; f'
+
 git config --global alias.squash2 'reset --soft HEAD^'
 
 git config --global alias.commitamend 'commit --amend --no-edit'
